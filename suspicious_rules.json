@@ -1,0 +1,13 @@
+{
+  "suspicious_parents": {
+    "nginx": ["bash", "sh", "zsh", "dash", "python", "perl", "nc"],
+    "apache2": ["bash", "sh", "zsh", "dash", "python", "perl", "nc"],
+    "httpd": ["bash", "sh", "zsh", "dash", "python", "perl", "nc"],
+    "php-fpm": ["bash", "sh", "zsh", "dash", "nc", "curl", "wget"]
+  },
+  "suspicious_paths": [
+    "/tmp",
+    "/var/tmp",
+    "/dev/shm"
+  ]
+}
